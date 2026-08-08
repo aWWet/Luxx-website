@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Վերնատուն · Vernatun — Vanadzor</title>
+<meta name="description" content="Vernatun — an Armenian restaurant in Vanadzor, Lori Province. Khorovats, khashlama, dolma, fresh lavash, and the old habit of keeping a room ready for guests.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;9..144,400;9..144,500;9..144,600;9..144,700&family=Noto+Serif+Armenian:wght@400;600;700&family=Manrope:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="grain" aria-hidden="true"></div>
+
+<!-- ============ HEADER ============ -->
+<header id="siteHeader">
+  <a href="#top" class="brand">
+    <svg viewBox="0 0 100 100" fill="none" aria-hidden="true"><use href="#emblem-petal-group"></use></svg>
+    Վերնատուն
+  </a>
+  <nav>
+    <a href="#story" data-i18n="nav_house">The House</a>
+    <a href="menu.html" data-i18n="nav_menu">The Table</a>
+    <a href="#atmosphere" data-i18n="nav_atmosphere">Atmosphere</a>
+    <a href="visit.html" data-i18n="nav_visit">Visit</a>
+    <div class="lang-switch" id="langSwitch" role="group" aria-label="Language">
+      <span class="lang-thumb" id="langThumb" aria-hidden="true"></span>
+      <button type="button" class="lang-btn active" data-lang="en">EN</button>
+      <button type="button" class="lang-btn" data-lang="ru">RU</button>
+      <button type="button" class="lang-btn" data-lang="hy">AM</button>
+    </div>
+    <a href="tel:+37477400581" class="nav-cta">+374 77 400581</a>
+  </nav>
+</header>
+
+<!-- ============ HERO ============ -->
+<section class="hero" id="top">
+  <svg class="hero-emblem-bg" viewBox="0 0 200 200" aria-hidden="true"><use href="#emblem-petal-group" x="100" y="100"></use></svg>
+  <div class="hero-inner">
+    <p class="eyebrow" data-i18n="hero_eyebrow">Վանաձոր · Լոռու մարզ — Vanadzor, Lori Province</p>
+    <h1 class="word-hy">Վերնատուն</h1>
+    <p class="word-lat">Vernatun</p>
+    <p class="hero-tagline" data-i18n="hero_tagline">In an old Armenian house, the <b>vernatun</b> was the upper room — kept swept, kept warm, kept ready for whoever arrived next. Ours still works that way.</p>
+    <div class="hero-actions">
+      <a href="menu.html" class="btn btn-solid" data-i18n="hero_cta_menu">See the table ↓</a>
+      <a href="tel:+37477400581" class="btn btn-ghost" data-i18n="hero_cta_reserve">Reserve — +374 77 400581</a>
+    </div>
+  </div>
+  <div class="hero-plaque">
+    <div class="stars">★★★★★</div>
+    <div class="rating-num">5.0</div>
+    <div class="rating-sub" data-i18n="plaque_reviews">Google reviews</div>
+    <div class="plaque-row" data-i18n="plaque_hours">Open daily<br>10:00 — 24:00</div>
+  </div>
+  <div class="scroll-cue"><span class="line"></span> <span data-i18n="scroll_cue">Scroll</span></div>
+</section>
+
+<!-- shared emblem defs -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <defs>
+    <path id="petal" d="M0,-88 C34,-86 46,-52 34,-20 C27,-4 10,4 0,-8 C-8,-18 -8,-40 0,-88 Z"></path>
+    <g id="emblem-petal-group">
+      <g fill="currentColor" stroke="none" transform="translate(0,0)">
+        <use href="#petal" transform="rotate(0)"/>
+        <use href="#petal" transform="rotate(45)"/>
+        <use href="#petal" transform="rotate(90)"/>
+        <use href="#petal" transform="rotate(135)"/>
+        <use href="#petal" transform="rotate(180)"/>
+        <use href="#petal" transform="rotate(225)"/>
+        <use href="#petal" transform="rotate(270)"/>
+        <use href="#petal" transform="rotate(315)"/>
+        <circle r="14"/>
+      </g>
+    </g>
+  </defs>
+</svg>
+
+<div class="divider reveal">
+  <svg viewBox="0 0 100 100" aria-hidden="true">
+    <g id="draw-emblem" fill="none" stroke="currentColor" stroke-width="2.4" transform="translate(50,50)">
+      <use href="#petal" transform="rotate(0)" class="petal-draw" style="--d:0"/>
+      <use href="#petal" transform="rotate(45)" class="petal-draw" style="--d:1"/>
+      <use href="#petal" transform="rotate(90)" class="petal-draw" style="--d:2"/>
+      <use href="#petal" transform="rotate(135)" class="petal-draw" style="--d:3"/>
+      <use href="#petal" transform="rotate(180)" class="petal-draw" style="--d:4"/>
+      <use href="#petal" transform="rotate(225)" class="petal-draw" style="--d:5"/>
+      <use href="#petal" transform="rotate(270)" class="petal-draw" style="--d:6"/>
+      <use href="#petal" transform="rotate(315)" class="petal-draw" style="--d:7"/>
+      <circle r="14"/>
+    </g>
+  </svg>
+</div>
+
+<!-- ============ STORY ============ -->
+<section class="story" id="story">
+  <div class="story-grid">
+    <div class="story-art reveal">
+      <svg class="emblem-etch" viewBox="0 0 200 200" style="color:rgba(236,225,204,0.5)" aria-hidden="true"><use href="#emblem-petal-group" x="100" y="100"></use></svg>
+    </div>
+    <div class="reveal">
+      <p class="eyebrow" data-i18n="story_eyebrow">Պատմություն — The House</p>
+      <h2 data-i18n="story_h2">A room that was never for the family alone.</h2>
+      <p data-i18n="story_p1">In the old highland houses of Lori, the vernatun sat a step above the rest — the one room facing south, the one with the good rugs, opened whenever someone came down from the hills or up from the valley. It wasn't for everyday. It was for whoever showed up hungry.</p>
+      <p data-i18n="story_p2">We took the name straight from that habit. Stone walls, a slow fire, bread that doesn't stop coming, and a chair pulled out before you've finished saying hello. Vanadzor sits low in the Lori basin, ringed by the same volcanic tuff this house is built from — we didn't have to look far for a character to build around.</p>
+      <div class="story-facts">
+        <div><strong>10:00–24:00</strong><span data-i18n="story_fact1">Open every day</span></div>
+        <div><strong>5.0 ★</strong><span data-i18n="story_fact2">Google rating</span></div>
+        <div><strong>Lori</strong><span data-i18n="story_fact3">Regional cuisine</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="divider reveal" style="background:var(--basalt); padding:60px 0 0;">
+  <svg viewBox="0 0 100 100" aria-hidden="true" style="color:var(--gold)">
+    <g fill="currentColor" transform="translate(50,50)"><use href="#emblem-petal-group"/></g>
+  </svg>
+</div>
+
+<!-- ============ MENU ============ -->
+<section class="menu" id="menu">
+  <div class="container">
+    <p class="eyebrow" data-i18n="menu_eyebrow">Ճաշացանկ — The Table</p>
+    <h2 class="reveal" data-i18n="menu_h2">Cooked the way Lori cooks — over coals, under stone, wrapped in vine leaves.</h2>
+    <p style="max-width:56ch; opacity:0.7; font-size:15px; margin:-24px 0 46px; line-height:1.7;" data-i18n="menu_intro">A sampling from the kitchen. Ask your server what's come off the coals today — it changes with the market.</p>
+  </div>
+  <div class="menu-grid reveal-stagger" id="menuGrid">
+    <div class="dish"><div class="dish-no">01</div><h3 data-i18n="dish1_name">Khorovats</h3><p data-i18n="dish1_desc">Skewered pork, lamb, or trout, turned slowly over hot coals in the open-air ojakh.</p></div>
+    <div class="dish"><div class="dish-no">02</div><h3 data-i18n="dish2_name">Khashlama</h3><p data-i18n="dish2_desc">Veal or lamb, braised for hours with onion and herbs until it falls from the bone.</p></div>
+    <div class="dish"><div class="dish-no">03</div><h3 data-i18n="dish3_name">Tolma</h3><p data-i18n="dish3_desc">Grape leaves wrapped tight around spiced rice and lamb, served with tart matsun.</p></div>
+    <div class="dish"><div class="dish-no">04</div><h3 data-i18n="dish4_name">Lavash & cheese</h3><p data-i18n="dish4_desc">Thin bread off the tonir, still warm, with string cheese and garden greens.</p></div>
+    <div class="dish"><div class="dish-no">05</div><h3 data-i18n="dish5_name">Lori bean stew</h3><p data-i18n="dish5_desc">Red beans, dried herbs, and walnut — a highland dish built for cold evenings.</p></div>
+    <div class="dish"><div class="dish-no">06</div><h3 data-i18n="dish6_name">Gata & coffee</h3><p data-i18n="dish6_desc">Sweet layered pastry with a cup of Armenian coffee, poured slow, grounds and all.</p></div>
+  </div>
+  <div class="container" style="text-align:center; margin-top:50px;">
+    <a href="menu.html" class="btn btn-solid" data-i18n="see_full_menu">See the full menu →</a>
+  </div>
+</section>
+
+<!-- ============ ATMOSPHERE ============ -->
+<section class="atmosphere" id="atmosphere">
+  <p class="eyebrow" style="justify-content:center;" data-i18n="atmosphere_eyebrow">Ինչպես են ասում — What guests say</p>
+  <div class="quote-wrap reveal" id="quoteWrap">
+    <blockquote class="quote active" data-i18n="quote1">“Spotless dining rooms, warm service, and prices that still feel fair.”<span data-i18n="quote_label">— Google review</span></blockquote>
+    <blockquote class="quote" data-i18n="quote2">“Armenian cooking done properly, in a room that feels lived-in rather than staged.”<span data-i18n="quote_label">— Google review</span></blockquote>
+    <blockquote class="quote" data-i18n="quote3">“The kind of place you'd bring family from out of town.”<span data-i18n="quote_label">— Google review</span></blockquote>
+  </div>
+  <div class="quote-dots" id="quoteDots"></div>
+</section>
+
+<!-- ============ VISIT ============ -->
+<section class="visit" id="visit">
+  <div class="visit-grid">
+    <div class="reveal">
+      <p class="eyebrow" data-i18n="visit_eyebrow">Այցելություն — Visit</p>
+      <h2 data-i18n="visit_h2">Find the table.</h2>
+      <ul class="visit-list">
+        <li><span class="k" data-i18n="visit_k_address">Address</span><span data-i18n="visit_v_address">№12, Vanadzor, Lori Province, Armenia</span></li>
+        <li><span class="k" data-i18n="visit_k_phone">Phone</span><span><a href="tel:+37477400581" style="text-decoration:underline;">+374 77 400581</a></span></li>
+        <li><span class="k" data-i18n="visit_k_hours">Hours</span><span data-i18n="visit_v_hours">Open every day, 10:00 — 24:00</span></li>
+        <li><span class="k" data-i18n="visit_k_rating">Rating</span><span data-i18n="visit_v_rating">5.0 ★ on Google</span></li>
+      </ul>
+    </div>
+    <div class="map-card reveal">
+      <div class="pulse"></div>
+      <svg class="pin" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><path d="M12 22s7-7.58 7-13A7 7 0 1 0 5 9c0 5.42 7 13 7 13Z"/><circle cx="12" cy="9" r="2.5"/></svg>
+      <h3 data-i18n="map_title">Vanadzor, Lori</h3>
+      <p data-i18n="map_desc">Set in the Lori basin, a couple of hours north of Yerevan on the road toward the Debed Canyon monasteries.</p>
+      <a class="btn btn-ghost" href="https://www.google.com/maps/search/?api=1&query=40.811772,44.495703" target="_blank" rel="noopener" data-i18n="map_cta">Open in Google Maps →</a>
+      <a class="btn btn-ghost" href="visit.html" style="margin-left:10px; border-color:rgba(236,225,204,0.4); color:var(--parchment);" data-i18n="plan_route">Plan a route from you →</a>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FOOTER ============ -->
+<footer>
+  <div class="brand"><svg viewBox="0 0 100 100" width="26" height="26" fill="none" aria-hidden="true"><use href="#emblem-petal-group"></use></svg>Վերնատուն</div>
+  <p data-i18n="footer_address">Vernatun · Vanadzor, Lori Province, Armenia</p>
+  <p data-i18n="footer_hours">+374 77 400581 · Open daily, 10:00–24:00</p>
+  <div class="foot-links">
+    <a href="tel:+37477400581" data-i18n="foot_call">Call</a>
+    <a href="https://www.google.com/maps/search/?api=1&query=40.811772,44.495703" target="_blank" rel="noopener" data-i18n="foot_directions">Directions</a>
+    <a href="#menu" data-i18n="foot_menu">Menu</a>
+  </div>
+</footer>
+
+<!-- scroll progress emblem -->
+<div class="progress-emblem" id="progressEmblem" aria-hidden="true">
+  <svg viewBox="0 0 100 100">
+    <circle cx="50" cy="50" r="44" fill="none" stroke="rgba(36,26,20,0.15)" stroke-width="3"/>
+    <circle id="progressRing" cx="50" cy="50" r="44" fill="none" stroke="#6b3a1f" stroke-width="3" stroke-linecap="round" stroke-dasharray="276.5" stroke-dashoffset="276.5" transform="rotate(-90 50 50)"/>
+    <g fill="#6b3a1f" transform="translate(50,50) scale(0.34)"><use href="#emblem-petal-group"/></g>
+  </svg>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

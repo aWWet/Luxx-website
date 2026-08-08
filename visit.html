@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Այցելություն · Visit — Vernatun</title>
+<meta name="description" content="Find Vernatun in Vanadzor, Lori Province — address, phone, hours, and a live distance/direction check from your location.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;9..144,400;9..144,500;9..144,600;9..144,700&family=Noto+Serif+Armenian:wght@400;600;700&family=Manrope:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="grain" aria-hidden="true"></div>
+
+<header id="siteHeader">
+  <a href="index.html" class="brand">
+    <svg viewBox="0 0 100 100" fill="none" aria-hidden="true"><use href="#emblem-petal-group"></use></svg>
+    Վերնատուն
+  </a>
+  <nav>
+    <a href="index.html#story" data-i18n="nav_house">The House</a>
+    <a href="menu.html" data-i18n="nav_menu">The Table</a>
+    <a href="index.html#atmosphere" data-i18n="nav_atmosphere">Atmosphere</a>
+    <a href="visit.html" class="nav-current" data-i18n="nav_visit">Visit</a>
+    <div class="lang-switch" id="langSwitch" role="group" aria-label="Language">
+      <span class="lang-thumb" id="langThumb" aria-hidden="true"></span>
+      <button type="button" class="lang-btn active" data-lang="en">EN</button>
+      <button type="button" class="lang-btn" data-lang="ru">RU</button>
+      <button type="button" class="lang-btn" data-lang="hy">AM</button>
+    </div>
+    <a href="tel:+37477400581" class="nav-cta">+374 77 400581</a>
+  </nav>
+</header>
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <defs>
+    <path id="petal" d="M0,-88 C34,-86 46,-52 34,-20 C27,-4 10,4 0,-8 C-8,-18 -8,-40 0,-88 Z"></path>
+    <g id="emblem-petal-group">
+      <g fill="currentColor" stroke="none" transform="translate(0,0)">
+        <use href="#petal" transform="rotate(0)"/>
+        <use href="#petal" transform="rotate(45)"/>
+        <use href="#petal" transform="rotate(90)"/>
+        <use href="#petal" transform="rotate(135)"/>
+        <use href="#petal" transform="rotate(180)"/>
+        <use href="#petal" transform="rotate(225)"/>
+        <use href="#petal" transform="rotate(270)"/>
+        <use href="#petal" transform="rotate(315)"/>
+        <circle r="14"/>
+      </g>
+    </g>
+  </defs>
+</svg>
+
+<section class="page-hero">
+  <svg class="hero-emblem-bg" viewBox="0 0 200 200" style="position:absolute; top:50%; right:-8%; transform:translateY(-50%); animation:spin 140s linear infinite;" aria-hidden="true"><use href="#emblem-petal-group" x="100" y="100"></use></svg>
+  <p class="eyebrow" data-i18n="page_visit_eyebrow">Այցելություն — Visit Us</p>
+  <h1 data-i18n="page_visit_h1">Find your way to the table.</h1>
+  <p class="page-sub" data-i18n="page_visit_sub">Allow location access and we'll show the distance and direction from you to Vernatun.</p>
+</section>
+
+<section style="padding:60px 32px 40px;">
+  <div class="container" style="max-width:640px; margin:0 auto;">
+    <div class="geo-card reveal">
+      <div class="compass" id="compass">
+        <svg viewBox="0 0 120 120">
+          <circle class="compass-ring" cx="60" cy="60" r="52"/>
+          <circle class="compass-spin" cx="60" cy="60" r="52"/>
+          <g class="compass-needle" id="compassNeedle">
+            <path d="M60 16 L68 60 L60 104 L52 60 Z" fill="var(--gold)" opacity="0.9"/>
+            <circle cx="60" cy="60" r="6" fill="var(--parchment)"/>
+          </g>
+        </svg>
+      </div>
+      <p class="geo-status" id="geoStatus" data-i18n="geo_idle">Tap the button to see the distance and direction from you to the restaurant.</p>
+      <button type="button" class="geo-btn" id="geoBtn" data-i18n="geo_locate_btn">Find distance from me</button>
+      <a href="#" class="geo-directions" id="geoDirections" target="_blank" rel="noopener" data-i18n="geo_directions_btn">Get directions →</a>
+    </div>
+  </div>
+</section>
+
+<section style="padding:40px 32px 120px;">
+  <div class="visit-grid" style="max-width:1180px; margin:0 auto; display:grid; grid-template-columns:1fr 1fr; gap:60px; align-items:start;">
+    <div class="reveal">
+      <p class="eyebrow">Contact</p>
+      <ul class="visit-list" style="list-style:none; padding:0; margin:20px 0 0; display:flex; flex-direction:column; gap:20px;">
+        <li style="display:flex; gap:16px; font-size:15.5px; line-height:1.6; border-bottom:1px solid var(--line); padding-bottom:18px;"><span class="k" style="font-family:var(--mono); font-size:11px; letter-spacing:0.08em; text-transform:uppercase; color:var(--pomegranate); min-width:88px;" data-i18n="visit_k_address">Address</span><span data-i18n="visit_v_address">№12, Vanadzor, Lori Province, Armenia</span></li>
+        <li style="display:flex; gap:16px; font-size:15.5px; line-height:1.6; border-bottom:1px solid var(--line); padding-bottom:18px;"><span class="k" style="font-family:var(--mono); font-size:11px; letter-spacing:0.08em; text-transform:uppercase; color:var(--pomegranate); min-width:88px;" data-i18n="visit_k_phone">Phone</span><span><a href="tel:+37477400581" style="text-decoration:underline;">+374 77 400581</a></span></li>
+        <li style="display:flex; gap:16px; font-size:15.5px; line-height:1.6; border-bottom:1px solid var(--line); padding-bottom:18px;"><span class="k" style="font-family:var(--mono); font-size:11px; letter-spacing:0.08em; text-transform:uppercase; color:var(--pomegranate); min-width:88px;" data-i18n="visit_k_hours">Hours</span><span data-i18n="visit_v_hours">Open every day, 10:00 — 24:00</span></li>
+        <li style="display:flex; gap:16px; font-size:15.5px; line-height:1.6; border-bottom:1px solid var(--line); padding-bottom:18px;"><span class="k" style="font-family:var(--mono); font-size:11px; letter-spacing:0.08em; text-transform:uppercase; color:var(--pomegranate); min-width:88px;" data-i18n="visit_k_rating">Rating</span><span data-i18n="visit_v_rating">5.0 ★ on Google</span></li>
+      </ul>
+    </div>
+    <div class="map-card reveal" style="background:var(--basalt); color:var(--parchment); border:1px solid var(--line); border-radius:4px; padding:30px;">
+      <svg class="pin" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" style="width:38px; height:38px; margin-bottom:18px;"><path d="M12 22s7-7.58 7-13A7 7 0 1 0 5 9c0 5.42 7 13 7 13Z"/><circle cx="12" cy="9" r="2.5"/></svg>
+      <h3 style="font-family:var(--display-lat); font-weight:500; font-style:italic; font-size:22px; margin:0 0 8px;" data-i18n="map_title">Vanadzor, Lori</h3>
+      <p style="font-size:14.5px; line-height:1.6; opacity:0.85; margin:0 0 22px;" data-i18n="map_desc">Set in the Lori basin, a couple of hours north of Yerevan on the road toward the Debed Canyon monasteries.</p>
+      <a class="btn btn-ghost" style="border-color:rgba(236,225,204,0.4); color:var(--parchment);" href="https://www.google.com/maps/search/?api=1&query=40.811772,44.495703" target="_blank" rel="noopener" data-i18n="map_cta">Open in Google Maps →</a>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="brand"><svg viewBox="0 0 100 100" width="26" height="26" fill="none" aria-hidden="true"><use href="#emblem-petal-group"></use></svg>Վերնատուն</div>
+  <p data-i18n="footer_address">Vernatun · Vanadzor, Lori Province, Armenia</p>
+  <p data-i18n="footer_hours">+374 77 400581 · Open daily, 10:00–24:00</p>
+  <div class="foot-links">
+    <a href="tel:+37477400581" data-i18n="foot_call">Call</a>
+    <a href="menu.html" data-i18n="foot_menu">Menu</a>
+    <a href="index.html#story" data-i18n="nav_house">The House</a>
+  </div>
+</footer>
+
+<div class="progress-emblem" id="progressEmblem" aria-hidden="true">
+  <svg viewBox="0 0 100 100">
+    <circle cx="50" cy="50" r="44" fill="none" stroke="rgba(36,26,20,0.15)" stroke-width="3"/>
+    <circle id="progressRing" cx="50" cy="50" r="44" fill="none" stroke="#6b3a1f" stroke-width="3" stroke-linecap="round" stroke-dasharray="276.5" stroke-dashoffset="276.5" transform="rotate(-90 50 50)"/>
+    <g fill="#6b3a1f" transform="translate(50,50) scale(0.34)"><use href="#emblem-petal-group"/></g>
+  </svg>
+</div>
+
+<script src="script.js"></script>
+<script>
+(function(){
+  var RESTAURANT = { lat: 40.811772, lng: 44.495703 };
+  var btn = document.getElementById('geoBtn');
+  var status = document.getElementById('geoStatus');
+  var compass = document.getElementById('compass');
+  var needle = document.getElementById('compassNeedle');
+  var directionsLink = document.getElementById('geoDirections');
+
+  var i18nStrings = {
+    en: {
+      locating:"Locating you…",
+      denied:"Location access wasn't allowed. You can still open the route manually below.",
+      error:"Couldn't determine your location. Check your browser permissions or open the map manually below.",
+      distancePrefix:"You are approximately",
+      distanceSuffix:"from Vernatun, as the crow flies."
+    },
+    ru: {
+      locating:"Определяем ваше местоположение…",
+      denied:"Доступ к геолокации не разрешён. Можно открыть маршрут вручную ниже.",
+      error:"Не получилось определить местоположение. Проверьте разрешения браузера или откройте карту вручную ниже.",
+      distancePrefix:"Вы примерно в",
+      distanceSuffix:"от Vernatun по прямой."
+    },
+    hy: {
+      locating:"Որոշում ենք ձեր գտնվելու վայրը…",
+      denied:"Տեղադրության հասանելիությունը թույլատրված չէ։ Կարող եք երթուղին բացել ձեռքով ներքևում։",
+      error:"Չհաջողվեց որոշել ձեր գտնվելու վայրը։ Ստուգեք բրաուզերի թույլտվությունները կամ բացեք քարտեզը ձեռքով ներքևում։",
+      distancePrefix:"Դուք մոտավորապես",
+      distanceSuffix:"հեռավորության վրա եք Վերնատունից՝ ուղիղ գծով։"
+    }
+  };
+
+  function currentLang(){
+    try{ return window.localStorage.getItem('vernatun-lang') || 'en'; }catch(e){ return 'en'; }
+  }
+
+  function toRad(deg){ return deg * Math.PI / 180; }
+
+  function haversineKm(lat1, lng1, lat2, lng2){
+    var R = 6371;
+    var dLat = toRad(lat2 - lat1);
+    var dLng = toRad(lng2 - lng1);
+    var a = Math.sin(dLat/2) * Math.sin(dLat/2) +
+            Math.cos(toRad(lat1)) * Math.cos(toRad(lat2)) *
+            Math.sin(dLng/2) * Math.sin(dLng/2);
+    var c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1-a));
+    return R * c;
+  }
+
+  function bearingDeg(lat1, lng1, lat2, lng2){
+    var y = Math.sin(toRad(lng2-lng1)) * Math.cos(toRad(lat2));
+    var x = Math.cos(toRad(lat1)) * Math.sin(toRad(lat2)) -
+            Math.sin(toRad(lat1)) * Math.cos(toRad(lat2)) * Math.cos(toRad(lng2-lng1));
+    var brng = Math.atan2(y, x) * 180 / Math.PI;
+    return (brng + 360) % 360;
+  }
+
+  function animateNumber(el, from, to, duration, suffix){
+    var start = null;
+    function step(ts){
+      if(!start) start = ts;
+      var progress = Math.min((ts - start) / duration, 1);
+      var val = (from + (to - from) * progress).toFixed(1);
+      el.textContent = val + suffix;
+      if(progress < 1) requestAnimationFrame(step);
+    }
+    requestAnimationFrame(step);
+  }
+
+  btn.addEventListener('click', function(){
+    var lang = currentLang();
+    var strings = i18nStrings[lang] || i18nStrings.en;
+
+    if(!('geolocation' in navigator)){
+      status.textContent = strings.error;
+      return;
+    }
+
+    btn.disabled = true;
+    compass.classList.add('loading');
+    status.textContent = strings.locating;
+
+    navigator.geolocation.getCurrentPosition(function(pos){
+      var lat = pos.coords.latitude;
+      var lng = pos.coords.longitude;
+      var distance = haversineKm(lat, lng, RESTAURANT.lat, RESTAURANT.lng);
+      var bearing = bearingDeg(lat, lng, RESTAURANT.lat, RESTAURANT.lng);
+
+      compass.classList.remove('loading');
+      needle.style.transform = 'rotate(' + bearing + 'deg)';
+
+      var b = document.createElement('b');
+      status.textContent = '';
+      var span1 = document.createTextNode(strings.distancePrefix + ' ');
+      var strong = document.createElement('b');
+      var span2 = document.createTextNode(' ' + strings.distanceSuffix);
+      status.appendChild(span1);
+      status.appendChild(strong);
+      status.appendChild(span2);
+      animateNumber(strong, 0, distance, 900, ' km');
+
+      directionsLink.href = 'https://www.google.com/maps/dir/?api=1&origin=' + lat + ',' + lng + '&destination=' + RESTAURANT.lat + ',' + RESTAURANT.lng + '&travelmode=driving';
+      directionsLink.classList.add('show');
+      btn.disabled = false;
+    }, function(err){
+      compass.classList.remove('loading');
+      status.textContent = (err.code === 1) ? strings.denied : strings.error;
+      btn.disabled = false;
+    }, { enableHighAccuracy:true, timeout:10000 });
+  });
+})();
+</script>
+</body>
+</html>
